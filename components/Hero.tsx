@@ -27,6 +27,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="container-custom relative z-10">
+        
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className={`transform transition-all duration-1000 ${isVisible   ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

@@ -11,12 +11,9 @@ const About = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-        } else {
-          // Optional: Reset visibility when element scrolls out of view
-          // setIsVisible(false);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.13}
     );
 
     const element = document.getElementById('about');

@@ -22,7 +22,7 @@ const Services = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.13}
     );
 
     if (sectionRef.current) {

@@ -13,7 +13,7 @@ const Courses = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.13}
     );
 
     const element = document.getElementById('courses');
