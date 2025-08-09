@@ -66,7 +66,7 @@ const Hero = () => {
           </div>
 
           {/* Visual Content */}
-          <div className={`relative transform transition-all duration-1000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+          <div className={` hidden sm:block relative transform transition-all duration-1000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="relative">
               {/* Main Image Container */}
               <div className="relative z-10 animate-float">

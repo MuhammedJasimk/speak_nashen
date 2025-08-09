@@ -58,20 +58,20 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      content: '+91 XXXXX XXXXX',
-      link: 'tel:+91XXXXXXXXX'
+      content: '+91 80892 48691',
+      link: 'tel:+918089248691'
     },
     {
       icon: Mail,
       title: 'Email',
-      content: 'info@speaknashen.com',
-      link: 'mailto:info@speaknashen.com'
+      content: 'speaknashen@gmail.com',
+      link: 'mailto:speaknashen@gmail.com'
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp',
       content: 'Chat with us',
-      link: 'https://wa.me/91XXXXXXXXX'
+      link: 'https://wa.me/918089248691'
     },
     // {
     //   icon: MapPin,

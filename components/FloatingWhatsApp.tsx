@@ -20,7 +20,7 @@ const FloatingWhatsApp = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '91XXXXXXXXX'; // Replace with actual phone number
+    const phoneNumber = '917994486414';
     const message = encodeURIComponent(
       'Hi! I\'m interested in learning more about your French and German language courses. Can you provide more information?'
     );

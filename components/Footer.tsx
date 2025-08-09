@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <img className='w-[150px]' src={'images/logo.png'} alt='logo'/>
+            {/* <img className='w-[150px]' src={'images/logo.png'} alt='logo'/> */}
             <p className="text-gray-300 mb-6 leading-relaxed">
               A Foundation for Forever. Transform your career with quality French and German 
               language training focused on global certifications.
@@ -91,11 +91,11 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Phone className="text-[#d52427]" size={18} />
-                <span className="text-gray-300">+91 XXXXX XXXXX</span>
+                <span className="text-gray-300">+91 8089248691</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="text-[#d52427]" size={18} />
-                <span className="text-gray-300">info@speaknashen.com</span>
+                <span className="text-gray-300">speaknashen@gmail.com</span>
               </div>
               <div className="mt-4">
                 <p className="text-sm text-gray-400">
